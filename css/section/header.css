@@ -1,0 +1,34 @@
+header{
+    position: relative;
+    padding-top:  2% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.header_logo{
+    font-size: 2em;
+    color: rgb(152, 152, 255);
+    top: 10px;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 10px;
+}
+.header_text  a{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    text-decoration: none;
+}
+.header_text  a:hover{
+    color: rgb(152, 152, 255);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
